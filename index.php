@@ -5,6 +5,9 @@ include 'db.php';
 <html>
 	<head>
 		<title>Chat System in PHP</title>
+		
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
 	<link rel="stylesheet" href="style.css" media="all"/>
 	<script>
 		function ajax(){
@@ -33,7 +36,7 @@ include 'db.php';
 		<div id="chat"></div>
 		</div>
 		<form method="post" action="index.php">
-		<input type="text" name="name" placeholder="enter name"/> 
+		<input  type="text" name="name" placeholder="enter name"/> 
 		<textarea name="msg" placeholder="enter message"></textarea>
 		<input type="submit" name="submit" value="Send it"/>
 		
@@ -57,6 +60,6 @@ include 'db.php';
 		?>
 
 </div>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
